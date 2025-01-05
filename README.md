@@ -24,5 +24,5 @@ In this implementation, the guidance equation is modified as follows: `eps = (gu
 This replaces the original equation: `eps = (1+guide_w)eps1 - guide_weps2` as described in the paper [Classifier-Free Diffusion Guidance](https://arxiv.org/abs/2207.12598). Additionally, the flow matching model employs a conditional optimal-transport (linear) path and uses the midpoint method as the ODE solver, as discussed in the paper [Flow Matching Guide and Code](https://arxiv.org/abs/2412.06264). 
 
 ## Results
-The guidance result is shown following.  
+The guidance result is shown following. When doing conditonal generation(guidance), each column's in result picture is guided by one type of cloth label.
 ![cover](fig1.png)
