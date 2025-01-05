@@ -1,6 +1,6 @@
 # Classifier Free Guidance Flow Matching on FashionMNIST
 
-This repository contains the implementation of classifier-free guidance flow matching on the FashionMNIST dataset, modifying the guidance equation as described in the original research.
+This repository contains the implementation of classifier-free guidance flow matching on the FashionMNIST dataset.
 
 ## Requirements
 
